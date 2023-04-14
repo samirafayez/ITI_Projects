@@ -1,0 +1,16 @@
+/*
+ * PUSHBUTTON_Cfg.c
+ *
+ *  Created on: Feb 24, 2023
+ *      Author: HP
+ */
+
+
+#include "01_PUSHBUTTON/PUSHBUTTON.h"
+#include "01_PUSHBUTTON/PUSHBUTTON_Cfg.h"
+
+
+const PUSHBUTTON_tstrPUSHBUTTONcfg PUSHBUTTON_strPUSHBUTTONcfg[PUSHBUTTON_enuNumberOfPUSHBUTTONs] =
+{
+	[PUSHBUTTON_enuSwitch] = {PUSHBUTTON_PULLUP, PUSHBUTTON_PORTB, PUSHBUTTON_enuPin7, LED_SPEED_HIGH}
+};
